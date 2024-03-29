@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leena - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">LEENA SHARMA</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Leena</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="developer.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-one" src="html logo.png">
+                    <div class="vertical-title">HTML</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta omnis cum, illo impedit dolorum,
+                        maiores est nihil magni quas excepturi saepe consectetur eaque nostrum quis voluptatem voluptas
+                        aliquam reiciendis totam?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-two" src="css logo.png">
+                    <div class="vertical-title">CSS</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta omnis cum, illo impedit dolorum,
+                        maiores est nihil magni quas excepturi saepe consectetur eaque nostrum quis voluptatem voluptas
+                        aliquam reiciendis totam?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-three" src="JavaScript.png">
+                    <div class="vertical-title">JavaScript</div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta omnis cum, illo impedit dolorum,
+                        maiores est nihil magni quas excepturi saepe consectetur eaque nostrum quis voluptatem voluptas
+                        aliquam reiciendis totam?
+                    </div>
+                </div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth">
+                www.leenasportfolio.com | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Web Designer', 'Competitive Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
